@@ -1,7 +1,7 @@
 # <h1 align="center" > 🍜 Case Study #1: Danny's Diner 🍜 
-  
+ 
 <p align="center">
-  <img src="https://8weeksqlchallenge.com/images/case-study-designs/1.png" alt="Image" width="450" height="450">
+<kbd>  <img src="https://8weeksqlchallenge.com/images/case-study-designs/1.png" alt="Image" width="450" height="450"></kbd>
 
 ## 📚 Table of Contents
 - [Business Task](#business-task)
@@ -46,7 +46,8 @@ Danny wants to use the data to answer a few simple questions about his customers
 
 ## 🪢Entity Relationship Diagram
 
-![Screenshot 2023-09-15 094422](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/b702bf7f-77c4-4dc0-9cc8-db72e45df044)
+<kbd>![Screenshot 2023-09-15 094422](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/b702bf7f-77c4-4dc0-9cc8-db72e45df044)
+</kbd>
 
 ***
 
@@ -82,8 +83,7 @@ FROM
 ```
 
 ### Output:
-
-![Screenshot 2023-09-15 094825](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/9abf79e7-442d-4ae9-aea8-72a945e353fb)
+<kbd>![Screenshot 2023-09-15 094825](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/9abf79e7-442d-4ae9-aea8-72a945e353fb)</kbd>
 
 ***
 
@@ -100,7 +100,7 @@ GROUP BY 1;
 
 #### Output:
 
-![Screenshot 2023-09-15 100707](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/d819f57f-94c8-4647-9078-d558a576a957)
+<kbd>![Screenshot 2023-09-15 100707](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/d819f57f-94c8-4647-9078-d558a576a957)</kbd>
 
 #### Insights:
 
@@ -125,7 +125,7 @@ GROUP BY 1;
 - It's important to apply the **DISTINCT** keyword while calculating the visit count to avoid duplicate counting of days. For instance, if Customer A visited the restaurant twice on '2021–01–07', counting without **DISTINCT** would result in 2 days instead of the accurate count of 1 day.
 
 #### Output:
-![Screenshot 2023-09-15 101346](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/9a249c17-075a-4484-899a-76978a80cafa)
+<kbd>![Screenshot 2023-09-15 101346](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/9a249c17-075a-4484-899a-76978a80cafa)</kbd>
 
 #### Insights:
 
@@ -157,7 +157,7 @@ GROUP BY 1,2;
 - we could have also used Common Table Expression CTE for the same.
 
 #### Output: 
-![Screenshot 2023-09-15 102614](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/e8705993-43b1-4a58-a662-89897681cc9d)
+<kbd>![Screenshot 2023-09-15 102614](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/e8705993-43b1-4a58-a662-89897681cc9d)</kbd>
 
 #### Insights:
 
@@ -192,7 +192,7 @@ LIMIT 1;
 - Apply the **LIMIT** 1 clause to filter and retrieve the highest number of purchased items.
 
 #### Output: 
-![Screenshot 2023-09-15 103011](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/342610c9-9ebe-463b-93dd-c768cf4ccc35)
+<kbd>![Screenshot 2023-09-15 103011](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/342610c9-9ebe-463b-93dd-c768cf4ccc35)</kbd>
 
 #### Insights:
 
@@ -228,7 +228,7 @@ WHERE
 - In the outer query, select the appropriate columns and apply a filter in the **WHERE** clause to retrieve only the rows where the rank column equals 1, representing the rows with the highest order count for each customer.
 
 #### Output: 
-![Screenshot 2023-09-15 104005](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/ce7ab74f-a7fb-4b2f-b5b8-eeb47bfcf409)
+<kbd>![Screenshot 2023-09-15 104005](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/ce7ab74f-a7fb-4b2f-b5b8-eeb47bfcf409)</kbd>
 
 #### Insights:
 
@@ -272,7 +272,7 @@ WHERE
 - In the outer query, select the appropriate columns and apply a filter in the **WHERE** clause to retrieve only the rows where the rank column equals 1, representing the rows with the first ordered item for each customer.
 
 #### Output: 
-![Screenshot 2023-09-15 111908](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/3107f637-8804-4d0f-b415-539e852b1f54)
+<kbd>![Screenshot 2023-09-15 111908](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/3107f637-8804-4d0f-b415-539e852b1f54)</kbd>
 
 #### Insights:
 
@@ -318,7 +318,7 @@ group by 1,3,4;
 - *Group_concat* is used to concat the item_bought together by a customer
 
 #### Output: 
-![Screenshot 2023-09-15 113558](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/294a6db1-27f8-4562-9a0b-cf2f2c9a7486)
+<kbd>![Screenshot 2023-09-15 113558](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/294a6db1-27f8-4562-9a0b-cf2f2c9a7486)</kbd>
 
 #### Insights:
 
@@ -355,7 +355,7 @@ ORDER BY 1;
 - In the outer query, select the appropriate columns with **count**`product_id` with **sum**`price` as *total_cost* representing the rows with the ordered items count with total_cost spent before becoming a member for each customer.
 
 #### Output: 
-![Screenshot 2023-09-15 114923](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/666a5edf-4b04-4960-be1f-2815862923ff)
+<kbd>![Screenshot 2023-09-15 114923](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/666a5edf-4b04-4960-be1f-2815862923ff)</kbd>
 
 #### Insights:
 
@@ -388,7 +388,7 @@ Let's break down the question to understand the point calculation for each custo
 - Then, calculate the total points for each customer.
 
 #### Output: 
-![Screenshot 2023-09-15 115625](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/9bbdaaf0-bcac-40ce-b332-d685bcafc41e)
+<kbd>![Screenshot 2023-09-15 115625](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/9bbdaaf0-bcac-40ce-b332-d685bcafc41e)</kbd>
 
 #### Insights:
 
@@ -430,7 +430,7 @@ ORDER BY 1;
 - Calculate the sum of points for each customer.
 
 #### Output: 
-![Screenshot 2023-09-15 122210](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/8f286df2-915c-4b4f-8e5f-a8913eda7844)
+<kbd>![Screenshot 2023-09-15 122210](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/8f286df2-915c-4b4f-8e5f-a8913eda7844)</kbd>
 
 #### Insights:
 
@@ -463,7 +463,7 @@ ORDER BY 1 , 2 , 3;
 - Simple `IF` statement is suffice to identity those who are members.  
 
 #### Output: 
-![Screenshot 2023-09-15 122453](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/6279e9c2-44e6-488f-b299-7de7b53ec9ac)
+<kbd>![Screenshot 2023-09-15 122453](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/6279e9c2-44e6-488f-b299-7de7b53ec9ac)</kbd>
 
 ***
 
@@ -498,6 +498,6 @@ ORDER BY 1,2,3;
 
 #### Output: 
 
-![Screenshot 2023-09-15 123025](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/af529c0d-2c7b-4de6-b5bc-68d429df8c5f)
+<kbd>![Screenshot 2023-09-15 123025](https://github.com/KasiMuthuveerappan/Danny-Ma-s-SQL-challenges/assets/142071405/af529c0d-2c7b-4de6-b5bc-68d429df8c5f)</kbd>
 
 ***
