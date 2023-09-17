@@ -15,6 +15,7 @@ If you have any questions, reach out to me on [LinkedIn](https://www.linkedin.co
   - [Datasets used](#datasets-used)
   - [Entity Relationship Diagram](#entity-relationship-diagram)
   - [Questions and Solutions](#questions-and-solutions)
+
   
 ## 🌟Introduction
 There is a new innovation in the financial industry called **Neo-Banks**: new aged digital only banks without physical branches.
